@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    
+}
+section{
+    position:relative;
+    width:100%;
+    height:100vh;
+    background-color: rgb(25, 24, 24);
+    background: url("bg.jpg")no-repeat;
+    background-size: cover;
+}
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:50px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    font-size: 35px;
+    color:rgb(54, 158, 182);
+    letter-spacing: 1px;
+}
+ ul {
+    list-style:none;
+    display:flex;
+    letter-spacing:2px;
+    
+}
+header ul li a{
+    text-decoration: none;
+    padding:10px 40px;
+    color:rgb(54, 158, 182);
+    font-weight:100px ;
+
+}
+ul li a:hover{
+    color:rgb(244, 246, 247);
+
+ }
+ .content{
+    color:rgb(241, 247, 248);
+    width:100%;
+    padding:190px;
+    background:none;
+    
+}
+h3{
+    font-weight:200;
+}
+h1{
+    font-size: 50px;
+    font-weight:900;
+    line-height:1.3;
+    
+}
+span{
+    color:rgb(54, 158, 182);
+    
+    
+}
+.media{
+    
+    display:flex;
+   
+    align-items: center;
+    margin: auto;
+    padding:20px;
+    background: transparent;
+
+
+}
+.media a{
+    position: relative;
+    color:rgb(54, 158, 182);
+    font-size:25px;
+    margin-right: 60px;
+}
+.media a:hover{
+    transform:scale(1.5);
+
+}
+button{
+    display:inline-block;
+    padding:12px 28px;
+    background:rgb(54, 158, 182);
+    border-radius: 40px;
+    font-size:16px;
+    color:rgb(3, 27, 23);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight:600;
+}
+button:hover{
+    box-shadow:0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+}
+#about{
+    background-color: black;
+}
+.about{
+    width:100%;
+    padding:90px 10px;
+    background-image: none;
+    background-color: black;
+    background-size: cover;
+}
+.about img{
+    width:430px;
+    padding-left: 20px;
+}
+.main{
+    background-color: black;
+    width:1130px;
+    margin:0 auto;
+    margin-bottom:0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.text{
+    color:white;
+    width:450px;
+    margin-bottom: 20px;
+align-items: center;
+}
+.text h2{
+    font-size: 50px;
+    font-weight: 900;
+    color:rgb(54, 158, 182);
+    margin-bottom: 10px;
+   
+
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.education{
+    background:none;
+    background-color: black;
+    width: 100%;
+    padding:90px 0px;
+}
+.education h2{
+    color:rgb(54, 158, 182);
+    font-size: 70px;
+    width: 1130px;
+    margin:30px auto;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:400px;
+   
+}
+.card{
+    color:white;
+    height:250px;
+    width:300px;
+    padding:20Px 55px;
+    background-color:grey;
+    border-radius:92px;
+    margin:15px;
+    position:relative;
+    text-align:center;
+}
+.card i{
+    font-size: 50px;
+    display:block;
+    text-align: center;
+    margin:15px 0px;
+    color:rgb(54, 158, 182);
+}
+.card h3{
+    color:rgb(54, 158, 182);
+    padding:10px;
+    font-weight: 900;
+
+}
+.card h3{
+    font-size: 25px;
+}
+.card:hover{
+    animation-name: card;
+    animation-duration: 300ms;
+    animation-fill-mode:forwards;
+}
+@keyframes card {
+    100%{
+        transform:rotate(-10deg);
+    }
+    
+}
+.contact{
+    background-color: black;
+    color:rgb(54, 158, 182);
+    margin:0px;
+    padding:50px;
+    text-align: center;
+    
+}
+form{
+
+    color:rgb(241, 240, 240);
+    padding:50px;
+}
